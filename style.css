@@ -1,0 +1,279 @@
+/*fonts-link start*/
+@font-face{
+	font-family: Inconsolata;
+	src: url(../fonts/Inconsolata/Inconsolata.otf);
+}
+@font-face{
+	font-family: PlayfairDisplay-Black;
+	src: url(../fonts/playfair-display/PlayfairDisplay-Black.otf);
+}
+@font-face{
+	font-family: PlayfairDisplay-Bold;
+	src: url(../fonts/playfair-display/PlayfairDisplay-Bold.otf);
+}
+@font-face{
+	font-family: PlayfairDisplay-Italic;
+	src: url(../fonts/playfair-display/PlayfairDisplay-Italic.otf);
+}
+@font-face{
+	font-family: PlayfairDisplay-Regular;
+	src: url(../fonts/playfair-display/PlayfairDisplay-Regular.otf);
+}
+@font-face{
+	font-family: Ubuntu-L;
+	src: url(../fonts/ubuntu/Ubuntu-L.ttf);
+}
+/*fonts-link end*/
+
+/*header start*/
+body{
+	margin: 0;
+	font-family: PlayfairDisplay-Regular;
+	font-weight: 400;
+	font-size: 16px;
+}
+
+header{
+	padding: 25px 0 33px 0;
+}
+.wrapper{
+	width: 85%;
+	margin: 0 auto;
+	overflow: hidden;
+	
+}
+.logo{
+	margin-top: 11px;
+	width: 11%;
+	float: left;
+}
+.logo img{
+	width: 100%;
+}
+.menu{
+	width: 60%;
+	float: right;
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+}
+.menu ul li a{
+	margin: 0 55px;
+	text-decoration: none;
+	text-transform: uppercase;
+    color: #626262;
+}
+.menu ul li:last-child a{
+	margin-right: 0;
+}
+.menu ul li a:hover{
+	border-bottom: 1px solid #626262;
+}
+/*header end*/
+
+
+/*banner start*/
+.banner-1 img{
+	width: 100%;
+}
+/*banner end*/
+
+/*content below the banner start*/
+.content-below-the-banner-start{
+	padding: 95px 0 132px 0;
+}
+.wrapper-1{
+	overflow: hidden;
+	margin: 0 auto;
+	width: 75%;
+}
+.text p{
+	margin: 0;
+	text-transform: uppercase;
+	color: #b4ad9e;
+	font-family: Ubuntu-L , sans-serif;
+	font-weight: 300;
+	font-size: 14px;
+}
+.text-1 h1{
+	margin: 25px 0 40px 0;
+	color: #626262;
+	font-weight: 400;
+	font-size: 30px;
+}
+.text-2 p{
+	margin-bottom: 55px;
+	margin-right: 80px;
+	color: #626262;
+	line-height: 20px;
+}
+/*content below the banner end*/
+
+/*blog part start*/
+
+.single{
+	margin-bottom: 132px;
+	width: 47%;
+	float: left;
+}
+.single:nth-child(even){
+    margin-left: 6%;
+}
+.blog-1 img{
+	width: 100%;
+}
+.blogs p{
+	margin-top: 25px;
+	text-transform: uppercase;
+	color: #b4ad9e;
+	font-family: Ubuntu-L , sans-serif;
+	font-weight: 300;
+	font-size: 14px;
+}
+.blogs h1{
+	margin: 20px 0 30px 0;
+	color: #626262;
+	font-weight: 400;
+	font-size: 30px;
+}
+.blogs span{
+	color: #626262;
+	line-height: 20px;
+}
+/*blog part end*/
+
+
+/*contact form start*/
+.contact-form{
+	margin-bottom: 120px;
+	padding: 70px 0;
+	width: 100%;
+	background-color: #f0f0f0;
+	display: table;
+}
+.wrapper-2{
+	margin: 0 auto;
+	width: 33.3%;
+	text-align: center;
+	display: table-cell;
+	vertical-align: middle;
+}
+.contact{
+
+}
+.contact h1{
+	margin-top: 0;
+	color: #333333;
+	font-weight: 400;
+	font-size: 30px;
+}
+.contact button{
+	border: none;
+}
+.s_form{
+	width: 400px;
+	margin: 0 auto;
+	position: relative;
+}
+.s_form input{
+	margin-top: 70px;
+	color: #626262;
+	font-family: PlayfairDisplay-Regular;
+	font-weight: 400;
+	font-size: 14px;
+	width: 330px;
+	height: 45px;
+	border: none;
+	border-bottom: 1px solid #333333;
+	background-color: transparent;
+}
+.s_form input:focus{
+	outline: 0;
+}
+.s_form button{
+	cursor: pointer;
+    position: absolute;
+    background-color: transparent;
+    top: 90px;
+    right: 30px;
+}
+.s_form button img{}
+/*contact form end*/
+
+/*content below the contact form start*/
+/*content below the contact form end*/
+
+
+/*load more button start*/
+.more{
+	text-align: center;
+	padding-bottom: 180px;
+}
+.more button{
+    padding: 15px 32px;
+    background-color: transparent;
+    border: none;
+    border: 1px solid #333333;
+    cursor: pointer;
+}
+
+.more p{
+	margin: 0;
+    font-family: PlayfairDisplay-Regular;
+    font-weight: 400;
+    font-size: 20px;
+    color: #626262;
+}
+
+/*load more button end*/
+
+/*footer start*/
+.footer{
+	width: 100%;
+	height: 95px;
+	overflow: hidden;
+	background-color: #f0f0f0;
+}
+.terms{
+	width: 24%;
+	float: left;
+}
+.terms ul{
+	float: right;
+}
+.terms ul li{
+	float: left;
+	list-style: none;
+	padding: 25px 0;
+}
+.terms ul li a{
+	text-decoration: none;
+	color: #000000;
+	font-size: 16px;
+}
+.terms ul li:last-child a{
+	margin-left: 30px;
+}
+
+.follow{
+	width: 25%;
+	float: right;
+}
+.follow ul{}
+.follow ul li{
+	margin-right: 25px;
+	float: left;
+	list-style: none;
+	padding: 25px 0;
+}
+.follow ul li a{
+	color: #000000;
+	text-decoration: none;
+	font-size: 16px;
+}
+
+/*footer end*/
